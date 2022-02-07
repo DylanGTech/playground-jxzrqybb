@@ -33,7 +33,7 @@ Do you see where I'm going going with this yet? (It's ok if you don't, that's wh
 
 ## Variables in Machines: A Saving Grace
 
-In the early days of electronic computing, we ran into a problem: Computers were too powerful and too big (100 KiloHertz and 3 Kilobytes was the "gaming computer" of its time, but governments liked to play with them themselves, basically they were the gamers). As more and more people needed to run their highly-advanced calculator homework, they needed a way to simplify how to interact with the computer. Computers store numbers inside their memory as 1s and 0s. The computer does not know what they mean (AI wasn't a thing back then), so programers had to remember what they do, where they are in memory, and what they want the computer to do with them. Doing this with punchcards and tape was extremely difficult. But an old friend from math came to the rescue: Variables.
+In the early days of electronic computing, we ran into a problem: Computers were too powerful and too big (100 KiloHertz with 3 Kilobytes was the "gaming computer" of its time, but governments liked to keep it to themselves, basically making them the first gamers). As more and more people needed to run their highly-advanced calculator homework, they needed a way to simplify how to interact with the computer. Computers store numbers inside their memory as 1s and 0s. The computer does not know what they mean (AI wasn't a thing back then), so programers had to remember what they do, where they are in memory, and what they want the computer to do with them. Doing this with punchcards and tape was extremely difficult. But an old friend from math came to the rescue: Variables.
 
 As mentioned before, variables are relatively simple concept that has been around for a very long time. The process we did above can quite easily translate to a program. Each variable is a piece of computer memory, and the the math we do tells the processor what to do, and where in memory to put them. Programming languages later found inovative ways of handling this. From the days of Formula Translator (FORTRAN) and Common Business-Oriented Language (COBOL), languages have been using variables in some form in order to help the programmer keep track of where things are, so they can focus on solving their problems.
 
@@ -61,7 +61,7 @@ static class Program {
     static void Main()
     {
         var d = 12;
-        var t = 15;
+        var t = 0.25;
 
         Console.WriteLine("Hello World!");
     }
@@ -71,7 +71,7 @@ static class Program {
 So what does this do?
 * "var" tells the computer that we need a piece of memory. That piece of memory will be used to store a variable. We did this twice, which means there will be two new pieces of memory to store our data.
 * "d" and "t" are the names of the variables. They mean absolutely nothing to the computer. In fact, the computer doesn't even know what the names of those variables are, or what they do, by default. You are like a god to a computer; It will blindly follow your orders, no matter how dumb.
-* "d = 12" and "t = 15" tell the computer to take whatever value you give it, and put it inside that piece of memory. After this, the piece of memory with the name "d" will have the value of 15 inside of it, while "t" will have the value of 12.
+* "d = 12" and "t = 0.25" tell the computer to take whatever value you give it, and put that value inside the piece of memory. After this, the piece of memory with the name "d" will have the value of 12 inside of it, while "t" will have the value of 15.
 
 Now that we have our values neatly tucked away inside their memory slots, it's time to DO something with them.
 
